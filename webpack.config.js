@@ -15,11 +15,11 @@ module.exports = {
         exclude: /node_modules/
       },
       {
-        test: /\.scss$/,
+        test: /\.(css|scss)$/,
         use: ["style-loader", "css-loader", "sass-loader"]
       },
       {
-        test: /\.(jpg|jpeg|gif|png|ico)/,
+        test: /\.(jpg|jpeg|gif|png|ico)$/,
         exclude: /(node_modules)/,
         use: [{ loader: "file-loader" }]
       }

@@ -1,9 +1,11 @@
-import React from "react";
+import React from "react"; 
+
+import Excercies1 from './Views/Excercies1'
 
 function App() {
   return (
     <div>
-      <h1> Load by Webpack test</h1>
+      <Excercies1 name={'Excercies1'}/>
     </div>
   );
 }
